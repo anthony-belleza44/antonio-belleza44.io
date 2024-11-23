@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Estilos CSS -->
+    <link rel="stylesheet" href="estilo.css" />
+
+
+    <!-- Animaciones CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Desarrolladora Web</title>
+  </head>
+
+  <body>
+    <!-- Barra de Navegación -->
+    <nav>
+    <h1>Anthony Belleza</h1>
+    <ul class="navegacion">
+      <li><a href="#sobremi" class="nav-link">Acerca de Mí</a></li>
+      <li><a href="#habilidaes" class="nav-link">Habilidades</a></li>
+      <li><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+    <button class="menu-hamburguesa" id="menu-hamburguesa">
+      <ion-icon class="barras" name="menu-outline"></ion-icon>
+    </button>
+</nav>
+    <!-- Sección Hero  -->
+    <section class="hero" id="about">
+      <img
+        src="img/Imagen de WhatsApp 2024-11-23 a las 12.15.47_5f52e30a.jpg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-titulo">Sobre Mí</h2>
+        <p class="bio-texto">
+          Soy una persona con ganas de aprender y desarrollarme profesionalmente. Destaco por mi capacidad para trabajar en equipo, mi atención al detalle y mi compromiso 
+          con las tareas asignadas. Cuento con formación en computación e informática y habilidades en base de datos, JavaScript, Visual Studio,Visual Studio Code, Android Studio.
+           Busco una oportunidad para aplicar mis conocimientos , adquirir experiencia y crecer profesionalmente.
+        </p>
+      </div>
+</section>
+<!--formacion academica-->
+<section class="mas-sobre">
+  <h2>Formación ACADEMICA</h2>
+  <p> manuel scorza</br></p>
+  <p>(2010 - 2016)</br></p>
+  <p>secundaria: manuel pardo</br></p>
+  <p>(2017 - 2021)</br></p>
+  <p>diseño grafico: EIGER </br></p>
+  <p>(Enero -marzo del 2023)</br></p>
+  <p>ORATORIA: MALI</br></p>
+  <p>(enero - abril 2024)</br></p>
+</section>
+    <!-- Sección Habilidades -->
+    <div class="container">
+      <h1>Mis habilidades principales</h1>
+      <div class="skills-grid">
+        <div class="skill">
+          <img src="img/CSS-Logo.jpg" alt="HTML5" class="icon icon-card">
+        </div>
+        <div class="skill">
+          <img src="img/image.png" alt="CSS3">
+        </div>
+        <div class="skill">
+          <img src="img/images (1).png" alt="JavaScript" class="icon icon-card">
+        </div>
+        <div class="skill">
+          <img src="img/images.png" alt="Bootstrap" class="icon icon-card">
+          <div class="skill">
+            <img src="img/5968554.png" alt="Bootstrap" class="icon icon-card">
+          </div>
+          <div class="skill">
+            <img src="img/images (2).png" alt="Bootstrap" class="icon icon-card">
+          </div>
+          <div class="skill">
+            <img src="img/png-transparent-coreldraw-keygen-computer-software-graphics-editor-others-cdr-balloon-logo-thumbnail.png" alt="Bootstrap" class="icon icon-card">
+          </div>
+          <div class="skill">
+            <img src="img/images (3).png" alt="Bootstrap" class="icon icon-card">
+          </div>
+          <div class="skill">
+            <img src="img/Visual-Studio-Logo-2012.jpg" alt="Bootstrap" class="icon icon-card">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sección Contacto-->
+    <section class="contacto" id="contacto">
+      <h2>Contactame</h2>
+      <div class="formulario-contacto-contenedor">
+        <div class="formulario-contacto">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="control-formulario">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Escribe tu nombre"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="control-formulario">
+              <label for="email">Correo Electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Ingreso tu correo electrónico"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="control-formulario">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                cols="60"
+                rows="10"
+                placeholder="Escribe tu mensaje"
+                name="mensaje"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Enviar"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Sección Footer  -->
+    <footer>
+      <p class="copy">&copy; Copyright 2024</p>
+        <a  target="_blank"
+          >Anthony Belleza</a
+        >
+      </p>
+</footer>
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
